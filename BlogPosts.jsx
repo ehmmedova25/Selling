@@ -1,12 +1,9 @@
 import React from 'react';
 import styles from './BlogPosts.module.css';
-import img1 from './images/blog1.png';
-import img2 from './images/blog2.png';
-import img3 from './images/blog3.png';
 
 const posts = [
   {
-    image: img1,
+    image: 'https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg',
     title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     author: 'Ham Brook',
     date: 'Jan 18, 2019',
@@ -14,7 +11,7 @@ const posts = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.',
   },
   {
-    image: img2,
+    image: 'https://preview.colorlib.com/theme/selling/images/product_1_bg.jpg',
     title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     author: 'James Phelps',
     date: 'Jan 18, 2019',
@@ -22,7 +19,7 @@ const posts = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.',
   },
   {
-    image: img3,
+    image: 'https://preview.colorlib.com/theme/selling/images/model_5_bg.jpg',
     title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     author: 'James Phelps',
     date: 'Jan 18, 2019',
