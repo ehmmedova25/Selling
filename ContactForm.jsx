@@ -20,19 +20,13 @@ const ContactForm = () => {
       message
     })
     .then((res) => {
-      console.log("Uğurla göndərildi", res);
-      alert("Mesaj göndərildi!");
-
       setFirstName('');
       setLastName('');
       setEmail('');
       setSubject('');
       setMessage('');
     })
-    .catch((err) => {
-      console.error("Xəta baş verdi", err);
-      alert("Xəta baş verdi.");
-    });
+  
   };
 
   return (
